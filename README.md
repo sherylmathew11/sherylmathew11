@@ -50,3 +50,9 @@ I'm a **Data Analyst** with experience turning complex datasets into clear, acti
 ---
 
 ⭐️ Feel free to explore my repositories and reach out if you’d like to collaborate!
+
+---
+
+<br/>
+<p align="center"> <img src=https://komarev.com/ghpvc/?username=sherylmathew11&color=blueviolet&style=for-the-badge alt=sherylmathew11/></p>
+<br/>
