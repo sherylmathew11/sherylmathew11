@@ -1,4 +1,4 @@
-# Hi, I'm Sheryl 👋
+# Hi, I'm [Sheryl](https://sherylmathew.vercel.app/) 👋
 
 I'm a **Data Analyst** with experience turning complex datasets into clear, actionable insights. I enjoy working at the intersection of **data, analytics, and automation**, building analytical solutions and dashboards that actually help people make better decisions.
 
@@ -43,9 +43,10 @@ I'm a **Data Analyst** with experience turning complex datasets into clear, acti
 ---
 
 ## 📫 Let’s Connect
-- 💼 LinkedIn: https://linkedin.com/in/sheryl-mathew-ba121419b  
+- 💼 LinkedIn: https://linkedin.com/in/sherylmathew11 
 - 📧 Email: sherylmathew1103@gmail.com  
 - 🧠 LeetCode: https://leetcode.com/u/sherylmathew11/
+- 🌐 Website: https://sherylmathew.vercel.app/
 
 ---
 
