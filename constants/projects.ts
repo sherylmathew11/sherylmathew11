@@ -21,6 +21,7 @@ export const projects: Project[] = [
       "Used prompt engineering and chat history for better code synthesis",
       "Leveraged Qwen-2.5-Coder via Hugging Face API for code generation",
     ],
+    liveUrl: "https://sherylmathew-smartchart.hf.space/",
     githubUrl: "https://github.com/sherylmathew11/smartchart",
   },
   {
