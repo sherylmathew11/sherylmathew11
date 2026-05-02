@@ -35,7 +35,7 @@ export const experiences: ExperienceItem[] = [
     duration: "Aug 2023 – Feb 2025",
     location: "Hyderabad, India",
     type: "full-time",
-    impact: "Received multiple Spot Awards and shoutouts for quality work",
+    impact: "Received a Spot Award and multiple shoutouts for high quality work",
     achievements: [
       "Led exploratory data analysis on large financial audit datasets for 20+ global clients, identifying patterns and supporting fraud detection and audit completeness",
       "Engineered and automated 35+ analytical workflows by migrating legacy SAS processes to Python and SQL in Azure Databricks, improving efficiency by 20% and saving 1000+ hours annually",
