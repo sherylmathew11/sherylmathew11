@@ -1,6 +1,6 @@
-# Hi, I'm [Sheryl](https://sherylmathew.vercel.app/) 👋
+<h1 align ="center">Hi, I'm <a href="https://sherylmathew.vercel.app/" target="_blank">Sheryl</a> 👋</h1>
 
-I'm a **Data Analyst** with experience turning complex datasets into clear, actionable insights. I enjoy working at the intersection of **data, analytics, and automation**, building analytical solutions and dashboards that actually help people make better decisions.
+I'm a **Data Analyst** with experience in turning complex datasets into clear, actionable insights. I enjoy working at the intersection of **data, analytics, and automation**, building analytical solutions and dashboards that actually help people make better decisions.
 
 ---
 
