@@ -1,8 +1,6 @@
 import { ReactNode } from "react";
 export type TestimonialItem = {
   message: string;
-  linkText?: string;
-  link?: string;
   from: string;
   position: string;
   date: string;
@@ -21,10 +19,8 @@ export const testimonials: TestimonialItem[] = [
   },
   {
     message:
-      "I’ve worked with Sheryl for over one and a half years. I first met Sheryl when she was hired in August 2023 as a Data Analyst in the Audit and Assurance department of Deloitte. She was part of the team implementing analytical solutions and data insights using visualization for clients. I followed her performance closely and interacted with her frequently over her tenure regarding implementation strategy and was closely involved in building the deliverables. Sheryl has some of the best analytical skills including deep knowledge in Python needed to...[LINK]",
+      "Sheryl has some of the best analytical skills including deep knowledge in Python needed to help organizations stand out in an increasingly competitive landscape. Sheryl’s principal strengths have been adaptability, ability to take charge and problem solving. She always demonstrated unwavering dedication and hard work and has been ever eager to take on additional responsibilities to take the task at hand to meaningful completion. What I truly appreciate about Sheryl is her ability to bring people together, she is a true professional and team player and I would highly recommend her for any role.",
     from: "Ansh Jain",
-    linkText: "Read more",
-    link: "https://www.linkedin.com/in/sherylmathew11/details/recommendations/",
     position: "Senior",
     date: "February 23, 2025",
     linkedin:

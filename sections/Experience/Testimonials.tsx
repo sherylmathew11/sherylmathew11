@@ -61,7 +61,7 @@ export default function Testimonials() {
         <div className="testimonial-carousel">
           <div className="overflow-hidden rounded-2xl border border-border/50 bg-background/40 shadow-inner backdrop-blur-sm">
             <div
-              className={`flex gap-4 p-1 ${isTransitioning ? "transition-transform duration-500 ease-out" : ""}`}
+              className={`flex gap-4 ${isTransitioning ? "transition-transform duration-500 ease-out" : ""}`}
               style={
                 {
                   "--slide-index": currentSlide,
@@ -116,22 +116,7 @@ export default function Testimonials() {
                           </a>
                         </div>
 
-                        <p className="mb-3 text-sm leading-relaxed text-foreground/90 [text-wrap:pretty] md:text-base">
-                          {testimonial.message.split("[LINK]")[0]}
-
-                          {testimonial.link && (
-                            <a
-                              href={testimonial.link}
-                              target="_blank"
-                              rel="noreferrer"
-                              className="text-blue-500 underline"
-                            >
-                              {testimonial.linkText ?? "Read more"}
-                            </a>
-                          )}
-
-                          {testimonial.message.split("[LINK]")[1]}
-                        </p>
+                        <p className="mb-3 text-sm leading-relaxed text-foreground/90 [text-wrap:pretty] md:text-base"> {testimonial.message} </p>
                         <p className="text-right text-xs font-medium text-muted-foreground">{testimonial.date}</p>
                       </div>
                     </div>

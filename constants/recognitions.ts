@@ -6,7 +6,7 @@ export type RecognitionItem = {
 export const recognitions: RecognitionItem[] = [
   {
     title:
-      "Spot Award at Deloitte for high-quality analysis, attention to detail, and adaptability",
+      "Recognized with a Spot Award at Deloitte for high-quality analysis, attention to detail, and adaptability",
     highlight: true,
   },
   {
