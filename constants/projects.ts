@@ -25,6 +25,50 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/sherylmathew11/smartchart",
   },
   {
+    title: "SiteInsight",
+    description: "AI-Powered RAG for Webpage Analytics",
+    longDescription:
+      "A real-time RAG tool that scrapes webpage content, indexes it into a FAISS vector store, and uses an advanced LLM retrieval and reranking pipeline with OpenAI's models to answer questions grounded in the extracted text.",
+    technologies: ["Python", "Streamlit", "LangChain", "OpenAI", "FAISS", "BeautifulSoup", "Generative AI"],
+    highlights: [
+      "Built a semantic RAG pipeline that scrapes and cleans webpage data dynamically using BeautifulSoup",
+      "Implemented MMR retrieval and a GPT-4o reranker to surface highly relevant context chunks",
+      "Designed a clean Streamlit interface with transparent source context visibility",
+    ],
+    githubUrl: "https://github.com/sherylmathew11/siteinsight",
+    logsUrl: "https://site-insight.streamlit.app/",
+  },
+  {
+    title: "Paris Olympics 2024 Dashboard",
+    description: "Tableau Data Analytics Dashboard",
+    longDescription:
+      "An interactive analytics dashboard visualizing Paris Olympics 2024 data with comprehensive insights on events, athletes, and medal standings.",
+    technologies: ["Databricks", "Tableau", "Python", "PySpark", "SQL"],
+    highlights: [
+      "Built data pipelines in Databricks for ETL processing",
+      "Created interactive Tableau dashboards with drill-down capabilities",
+      "Visualized medal counts, athlete performance, and country statistics",
+      "Real-time data refresh with optimized query performance",
+    ],
+    liveUrl: "https://public.tableau.com/views/ParisOlympics2024-MigrantMedalists/Overview",
+    logsUrl: "/Paris_Olympic_Data_Preparation.html",
+  },
+  {
+    title: "Netflix Global Content Analysis",
+    description: "Power BI Data Analytics Dashboard",
+    longDescription:
+    "An interactive Power BI dashboard analyzing Netflix data to uncover insights into content distribution, release trends, and genre mix across countries.",
+    technologies: ["Power BI", "Power Query", "DAX"],
+    highlights: [
+    "Designed a custom dark-themed UI tailored to the Netflix brand identity",
+    "Calculated core metrics using DAX to track total countries, titles, and directors",
+    "Implemented a dual-handle date slider for interactive filtering of release year trends over time",
+    "Visualized global content distribution using a map visual, genre distribution using a treemap, content mix using a donut chart, and a bar chart for top countries",
+    ],
+    liveUrl: "/Netflix Dashboard.pdf",
+    logsUrl: "",
+  },
+  {
     title: "Human Activity Recognition",
     description: "Deep Learning for Video Action Recognition",
     longDescription:
@@ -39,26 +83,11 @@ export const projects: Project[] = [
     logsUrl: "https://arxiv.org/abs/2304.14499",
   },
   {
-    title: "Paris Olympics 2024 Dashboard",
-    description: "Data Analytics Dashboard",
-    longDescription:
-      "An interactive analytics dashboard visualizing Paris Olympics 2024 data with comprehensive insights on events, athletes, and medal standings.",
-    technologies: ["Databricks", "Tableau", "Python", "PySpark", "SQL"],
-    highlights: [
-      "Built data pipelines in Databricks for ETL processing",
-      "Created interactive Tableau dashboards with drill-down capabilities",
-      "Visualized medal counts, athlete performance, and country statistics",
-      "Real-time data refresh with optimized query performance",
-    ],
-    liveUrl: "https://public.tableau.com/views/ParisOlympics2024-MigrantMedalists/Overview",
-    logsUrl: "/Paris_Olympic_Data_Preparation.html",
-  },
-  {
     title: "Nurse-Mi",
-    description: "ML Symptom Checker Chatbot",
+    description: "Machine Learning for Disease Prediction",
     longDescription:
       "A Python-based machine learning chatbot focused on predicting diseases from user-entered symptoms.",
-    technologies: ["Python", "Tkinter", "Scikit-learn", "Machine Learning", "AI", "Data Science"],
+    technologies: ["Python", "Tkinter", "Scikit-learn", "Machine Learning", "Data Science"],
     highlights: [
       "Built an interactive chatbot UI for symptom input and predictions",
       "Trained a machine learning model to map symptom patterns to likely diseases",

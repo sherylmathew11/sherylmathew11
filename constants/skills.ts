@@ -9,7 +9,8 @@ import {
   HiCommandLine,
   HiUserGroup,
 } from "react-icons/hi2";
-
+import { FaMicrosoft } from "react-icons/fa6";
+    
 type IconComponent = ComponentType<{ className?: string }>;
 
 export type SkillCategory = {
@@ -36,8 +37,8 @@ export const skillCategories: SkillCategory[] = [
       { name: "MS Excel", icon: HiChartBar, featured: true },
       { name: "AWS", icon: FaAws },
       { name: "Pandas", icon: SiPython },
-      { name: "NumPy" },
-      { name: "Matplotlib" },
+      { name: "NumPy", icon: SiPython },
+      { name: "Matplotlib", icon: SiPython },
     ],
   }, 
   {
@@ -48,7 +49,7 @@ export const skillCategories: SkillCategory[] = [
     borderColor: "border-emerald-500/20",
     skills: [
       { name: "Python", icon: SiPython, featured: true },
-      { name: "SQL", featured: true },
+      { name: "SQL", icon: HiCodeBracket, featured: true },
     ],
   },
   { 
@@ -63,7 +64,7 @@ export const skillCategories: SkillCategory[] = [
       { name: "Git", icon: SiGit },
       { name: "VS Code", icon: HiCommandLine },
       { name: "Genesys Cloud", icon: HiCloud },
-      { name: "Microsoft Office Suite" },
+      { name: "Microsoft Office Suite", icon: FaMicrosoft },
     ],
   }, 
   {

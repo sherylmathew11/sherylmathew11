@@ -9,7 +9,7 @@ export default function Volunteer() {
     <section id="volunteer" className="w-full" data-testid="section-volunteer">
       <div className="w-full bg-muted/40 pt-4 pb-14 sm:pt-6 sm:pb-16 md:pb-20">
         <div className="mx-auto w-full max-w-6xl px-4 md:px-8">
-          <SectionHeader title="Volunteer work" Icon={HiHeart} align="center" className="mb-8 md:mb-10" />
+          <SectionHeader title="Volunteer Work" Icon={HiHeart} align="center" className="mb-8 md:mb-10" />
 
           <div className="relative overflow-hidden rounded-3xl border-2 border-border/80 bg-card shadow-xl">
             <div className="pointer-events-none absolute inset-0 overflow-hidden">
