@@ -1,7 +1,7 @@
 "use client";
 
 import { SectionHeader } from "@/components/SectionHeader";
-import { HiBriefcase, HiMapPin, HiCalendar, HiArrowTrendingUp } from "react-icons/hi2";
+import { HiBriefcase, HiMapPin, HiCalendar, HiArrowTrendingUp, HiArrowUpRight } from "react-icons/hi2";
 import { experiences } from "@/constants/experience";
 
 type ColorKey = "green" | "orange" | "purple";
@@ -192,9 +192,31 @@ export default function Experience() {
                           </dl>
                         </div>
 
-                        <div className="mb-5 flex items-start gap-3 rounded-xl border border-primary/15 bg-primary/5 px-3.5 py-2.5 text-sm dark:border-primary/20 dark:bg-primary/10">
+                        {/* <div className="mb-5 flex items-start gap-3 rounded-xl border border-primary/15 bg-primary/5 px-3.5 py-2.5 text-sm dark:border-primary/20 dark:bg-primary/10">
                           <HiArrowTrendingUp className="mt-0.5 h-4 w-4 shrink-0 text-primary" aria-hidden />
                           <span className="font-medium leading-snug text-foreground">{exp.impact}</span>
+                        </div> */}
+                        <div className="mb-5 flex items-start gap-3 rounded-xl border border-primary/15 bg-primary/5 px-3.5 py-2.5 text-sm dark:border-primary/20 dark:bg-primary/10">
+                          <HiArrowTrendingUp className="mt-0.5 h-4 w-4 shrink-0 text-primary" aria-hidden />
+                          <span className="font-medium leading-snug text-foreground">
+                            {exp.spotAwardLink ? (
+                              <>
+                                Received a{" "}
+                                <a 
+                                  href={exp.spotAwardLink} 
+                                  target="_blank" 
+                                  rel="noreferrer" 
+                                  className="text-primary underline decoration-dotted underline-offset-4 hover:text-primary/80 transition-colors font-semibold inline-flex items-center gap-0.5"
+                                >
+                                  Spot Award
+                                  <HiArrowUpRight className="h-3 w-3 inline" />
+                                </a>{" "}
+                                and multiple shoutouts for high quality work
+                              </>
+                            ) : (
+                              exp.impact
+                            )}
+                          </span>
                         </div>
 
                         <ul className="space-y-3">

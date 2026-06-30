@@ -1,5 +1,5 @@
 import { SectionHeader } from "@/components/SectionHeader";
-import { HiCheckBadge } from "react-icons/hi2";
+import { HiCheckBadge, HiArrowUpRight} from "react-icons/hi2";
 import { recognitions } from "@/constants/recognitions";
 
 export default function Recognition() {
@@ -25,7 +25,25 @@ export default function Recognition() {
                 }`}
               />
               <div className="text-sm leading-relaxed text-foreground/90">
-                <p className="font-medium tracking-tight text-foreground [text-wrap:pretty]">{award.title}</p>
+                <p className="font-medium tracking-tight text-foreground [text-wrap:pretty]">
+                  {award.spotAwardLink ? (
+                    <>
+                      Recognized with a{" "}
+                      <a 
+                        href={award.spotAwardLink} 
+                        target="_blank" 
+                        rel="noreferrer" 
+                        className="text-primary underline decoration-dotted underline-offset-4 hover:text-primary/80 transition-colors font-semibold inline-flex items-center gap-0.5"
+                      >
+                        Spot Award
+                        <HiArrowUpRight className="h-3 w-3 inline" />
+                      </a>{" "}
+                      at Deloitte for high-quality analysis, attention to detail, and adaptability
+                    </>
+                  ) : (
+                    award.title
+                  )}
+                </p>
               </div>
             </div>
           ))}

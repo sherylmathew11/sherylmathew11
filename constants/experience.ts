@@ -9,6 +9,7 @@ export type ExperienceItem = {
   achievements: string[];
   technologies: string[];
   color: "green" | "orange" | "purple";
+  spotAwardLink?: string;
 };
 
 export const experiences: ExperienceItem[] = [
@@ -20,13 +21,12 @@ export const experiences: ExperienceItem[] = [
     type: "full-time",
     impact: "Ensured accurate, compliant healthcare data operations",
     achievements: [
-      "Validated healthcare data supporting 30–40 weekly assessments and 200+ monthly interactions for NY OPWDD programs, ensuring accuracy, confidentiality, and HIPAA compliance",
-      "Translated operational workflows into accurate scheduling, documentation, and tracking to support timely assessments",
-      "Collaborated with care coordinators and administrative stakeholders to align data with service delivery needs",
-      "Cleaned and managed operational data in Microsoft Excel to support standardized reporting and efficiency",
-      "Coordinated consumer-centric scheduling by aligning individual needs with appropriate assessment resources",
+      "Coordinated 150+ monthly assessments and 200+ stakeholder interactions monthly for NY OPWDD programs, ensuring data accuracy, HIPAA compliance and thorough documentation.",
+      "Developed custom SQL queries against Genesys Cloud data to track 10+ KPIs - call volumes, scheduling trends, completion rates, etc. to drive operational efficiency.",
+      "Built Power BI dashboards to surface team and individual performance metrics, enabling leadership to identify bottlenecks.",
+      "Collaborated with cross-functional stakeholders to ensure data integrity, timely outreach, and appropritate assessment resource alignment.",
     ],
-    technologies: ["Microsoft Excel", "Microsoft Outlook", "Healthcare Operations", "Data Management", "HIPAA"],
+    technologies: ["SQL", "Power BI", "Microsoft Excel", "Healthcare Operations", "Stakeholder Management", "HIPAA"],
     color: "purple",
   },
   {
@@ -44,5 +44,6 @@ export const experiences: ExperienceItem[] = [
     ],
     technologies: ["Azure Databricks", "PySpark", "Python", "SQL", "SAS", "Power BI", "Tableau", "MS Excel"],
     color: "green",
+    spotAwardLink: "/images/SpotAward.jpg",
   },
 ];

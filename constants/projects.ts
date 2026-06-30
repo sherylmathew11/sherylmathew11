@@ -21,8 +21,8 @@ export const projects: Project[] = [
       "Used prompt engineering and chat history for better code synthesis",
       "Leveraged Qwen-2.5-Coder via Hugging Face API for code generation",
     ],
-    liveUrl: "https://sherylmathew-smartchart.hf.space/",
     githubUrl: "https://github.com/sherylmathew11/smartchart",
+    liveUrl: "https://sherylmathew-smartchart.hf.space/", 
   },
   {
     title: "SiteInsight",
@@ -36,7 +36,7 @@ export const projects: Project[] = [
       "Designed a clean Streamlit interface with transparent source context visibility",
     ],
     githubUrl: "https://github.com/sherylmathew11/siteinsight",
-    logsUrl: "https://site-insight.streamlit.app/",
+    liveUrl: "https://site-insight.streamlit.app/",
   },
   {
     title: "Paris Olympics 2024 Dashboard",
@@ -65,8 +65,8 @@ export const projects: Project[] = [
     "Implemented a dual-handle date slider for interactive filtering of release year trends over time",
     "Visualized global content distribution using a map visual, genre distribution using a treemap, content mix using a donut chart, and a bar chart for top countries",
     ],
-    liveUrl: "/Netflix Dashboard.pdf",
-    logsUrl: "",
+    liveUrl: "",
+    logsUrl: "/Netflix Dashboard.pdf",
   },
   {
     title: "Human Activity Recognition",
