@@ -1,22 +1,23 @@
 <h1 align ="center">Hi, I'm <a href="https://sherylmathew.vercel.app/" target="_blank">Sheryl</a> 👋</h1>
 
-I'm a **Data Analyst** with experience in turning complex datasets into clear, actionable insights. I enjoy working at the intersection of **data, analytics, and automation**, building analytical solutions and dashboards that actually help people make better decisions.
+I'm a **Computer Science and Artificial Intelligence** graduate student at Boston University, and a **Data Analyst** with experience in turning complex datasets into clear, actionable insights. I enjoy working at the intersection of artificial intelligence and data,  exploring how technology can solve real-world problems and turn complex ideas into practical applications.
 
 ---
 
-## 🔍 What I Do
-- 📊 Analyze large, complex datasets to uncover trends, risks, and insights  
-- ⚙️ Build data pipelines and automate analytical workflows  
-- 📈 Design dashboards and visualizations for technical and non-technical audiences  
-- 🤖 Experiment with AI-driven data tools and analytics platforms  
+## 🔍 What I Do & What I'm Exploring
+- 🤖 Explore Generative AI, Large Language Models (LLMs), and Retrieval-Augmented Generation (RAG)
+- ⚙️ Build data pipelines and automate analytical workflows
+- 📊 Transform complex datasets into meaningful insights through analytics and visualization
+- 🚀 Explore the development of scalable, reliable, AI-powered applications
 
 ---
 
 ## 🛠️ Tech Stack
 **Languages:** Python, SQL  
-**Data & Analytics:** Pandas, PySpark, Databricks, SAS  
+**AI & Machine Learning:** Generative AI, LLMs, RAG, Deep Learning, Natural Language Processing
+**Data & Analytics:** Pandas, Numpy, PySpark, Databricks, SAS  
 **Visualization:** Tableau, Power BI, Matplotlib  
-**Cloud & Tools:** AWS, Git, GitHub, Streamlit, VS Code  
+**Cloud & Development Tools:** AWS, Git, GitHub, Streamlit, VS Code  
 
 ---
 
@@ -36,9 +37,20 @@ I'm a **Data Analyst** with experience in turning complex datasets into clear, a
 ---
 
 ## 🎓 Background
-- **Data Analyst** @ Deloitte  
-- **Operations & Data Support Coordinator** @ Maximus  
-- **B.Tech in Electronics & Computer Engineering**  
+- 🎓 **M.S. Computer Science & Artificial Intelligence** - Boston University
+- 🎓 **B.Tech Electronics & Computer Engineering** – Vellore Institute of Technology (VIT Chennai)
+- 💼 **Data Analytics Specialist** @ Deloitte  
+- 💼 **Operations Support Coordinator** @ Maximus  
+
+---
+
+## 🎯 Current Learning Goals
+
+- Strengthening computer science fundamentals through graduate coursework
+- Exploring advanced machine learning and deep learning techniques
+- Developing expertise in Generative AI and LLM-based systems
+- Learning distributed computing and scalable software architectures
+- Building end-to-end AI applications with an emphasis on reliability, performance, and practical deployment
 
 ---
 
@@ -47,6 +59,7 @@ I'm a **Data Analyst** with experience in turning complex datasets into clear, a
 - 📧 Email: sherylmathew1103@gmail.com  
 - 🧠 LeetCode: https://leetcode.com/u/sherylmathew11/
 - 🌐 Website: https://sherylmathew.vercel.app/
+- 📄 Resume: [View My Resume](https://sherylmathew.vercel.app/Sheryl_Resume.pdf)
 
 ---
 
